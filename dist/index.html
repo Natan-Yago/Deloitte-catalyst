@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="light class=" scroll-smooth"">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deloitte Launchpad</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body class="bg-lightBg">
+
+    <div id="popup" role="alert" class="rounded-xl border border-border bg-white p-4 w-[350px] absolute right-4 top-20">
+        <div id="progressIndicator" class="spinner w-4 absolute right-6 bottom-2"></div>
+
+        <div class="flex items-start gap-4">
+            <span class="text-black">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="h-6 w-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </span>
+
+            <div class="flex-1">
+                <strong class="block font-medium text-black"> Next program starts</strong>
+
+                <p class="mt-1 text-sm text-bodyText">1/1/2025</p>
+
+                <button
+                    class="flex justify-center items-center mt-4 gap-3 before:ease relative rounded-2xl px-3 py-1 w-auto overflow-hidden border border-black  text-black  transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-green-500 hover:before:-translate-x-40">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-5 ml-1">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+                    </svg>
+                    <span relative="relative z-10 text-[14px]">Remind Me</span>
+                </button>
+            </div>
+
+            <button class="text-bodyText transition">
+                <span class="sr-only">Dismiss popup</span>
+
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="h-6 w-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+        </div>
+    </div>
+
+    <header class="bg-black sticky top-0 z-50">
+        <div class="max-w-[1200px] mx-auto py-5 px-4 md:px-0">
+            <div class="flex justify-between items-center">
+                <img class="w-28" src="../src/assets/deloitte.svg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="px-4 pt-16 
+        ">
+        <div class="grid max-w-[1200px]  mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12 dark:bg-black">
+            <div class="mr-auto place-self-center lg:col-span-7">
+
+                <!-- notice cmponent -->
+                <span
+                    class="inline-flex items-center justify-center rounded-full  px-2.5 py-0.5 border-[1px] border-green">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="-ms-1 me-1.5 h-4 w-4  ">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+
+                    <p class="whitespace-nowrap text-sm">Open for aplications</p>
+                </span>
+                <!-- notice cmponent -->
+
+                <h1
+                    class="text-black max-w-2xl mb-4 text-6xl font-light tracking-tight leading-none md:text-7xl md:font-bold xl:text-8xl ">
+                    Deloitte Launch<span class="text-green">pad</span></h1>
+                <p class="max-w-2xl mb-6 font-light text-bodyText lg:mb-8 md:text-lg lg:text-xl">From
+                    Helping Israeli founders scale in the US
+                </p>
+                <div class="flex flex-row gap-4">
+
+                    <button
+                        class="before:ease relative rounded-2xl h-12 w-40 overflow-hidden border border-green bg-green text-white  transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-green-500 hover:before:-translate-x-40">
+                        <span relative="relative z-10">Start Now</span>
+                    </button>
+                    <button
+                        class="flex justify-center items-center gap-3 before:ease relative rounded-2xl px-5 py-2 w-auto overflow-hidden border border-black  text-black  transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-green-500 hover:before:-translate-x-40">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 ml-1">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+                        </svg>
+                        <span relative="relative z-10">Remind Me Later</span>
+                    </button>
+                </div>
+            </div>
+            <div class="lg:mt-0 lg:col-span-5 lg:flex">
+                <img src="../src/assets/hero-img-light.png" alt="hero image light">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="max-w-[1260px] mx-auto pb-10">
+
+            <div class="relative flex overflow-x-hidden">
+                <div class="py-12 animate-marquee whitespace-nowrap">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Piiano Logo.png" alt="">
+                    <img class="inline-block mx-4 w-[8rem]"
+                        src="../src/assets/logos/batch-6/Indoor Robotics - Black on whitebackground logo.png" alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                </div>
+
+                <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex justify-center items-center">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Statement logo-Black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Logo_Kahoona_Black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+
+                </div>
+
+                <div
+                    class="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-lightBg dark:from-background z-40">
+                </div>
+                <div
+                    class="pointer-events-none absolute inset-y-0 right-0 w-[5%] bg-gradient-to-l from-lightBg dark:from-background z-40">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--------------------------------------------------------------------What We Do--------------------------------------------------------------------->
+    <section class="px-4 py-20 md:py-28 bg-white">
+        <div class="max-w-[1200px] mx-auto grid grid-cols-12 gap-24">
+            <div class="col-span-7 pr-10">
+                <h2 class="text-3xl font-bold mb-4 text-black">What We Do</h2>
+                <p class="text-black text-3xl">
+                    We support Israeli startup founders scaling and expanding in the <span class="text-green">US
+                        market</span>
+                    through a community of
+                    <span class="text-green">like-minded entrepreneurs</span>, personal <span
+                        class="text-green">guidance</span> from dedicated teams in the US and Israel, and
+                    strategic <span class="text-green">programming</span>.
+                </p>
+            </div>
+            <div class="col-span-5 grid grid-cols-1 gap-10 text-black">
+                <div class="col-span-1 border-solid	border-b-[1px] border-borderDark ">
+                    <p class="pb-5"><span class="text-8xl pr-4">100+</span>Industry Experts</p>
+                </div>
+                <div class="col-span-1 border-solid	border-b-[1px] border-borderDark">
+                    <p class="pb-5"><span class="text-8xl pr-4">63</span>Alumni Companies</p>
+                </div>
+                <div class="col-span-1 border-solid	border-b-[1px] border-borderDark">
+                    <p class="pb-5"><span class="text-8xl pr-4">$1.3B</span>Funding Raised</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------------------------------------From founders Like you--------------------------------------------------------------------->
+    <section class="px-4 py-20 ">
+        <div class="max-w-[1200px] mx-auto">
+            <div class="flex justify-between items-center">
+                <h2 class="text-3xl font-bold mb-4 text-black">From founders Like you</h2>
+                <div class="flex justify-center items-center">
+                    <svg class="prev w-10 cursor-pointer fill-lightBg text-black" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+                    <svg class="next w-10 cursor-pointer fill-lightBg text-black" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24" stroke-width="1" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>
+
+                </div>
+            </div>
+
+            <div class="overflow-hidden flex items-center mt-4 gap-10 py-10">
+                <div
+                    class=" box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-white shadow-xl">
+                    <div class="flex justify-start items-center gap-4 relative">
+                        <img class="rounded-full w-20 " src="../src/assets/avatars/Omri-Gazit.jpg">
+                        <div>
+                            <h3 class="block text-black pb-2">Omri Gazit, Co-Founder and COO</h3>
+                            <a class="block" href="https://www.ludeo.com/"><img class="w-24"
+                                    src="https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/logos/batch-7/ludeologo.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                    <blockquote class="text-bodyText mt-4">
+                        “We are thrilled to be part of an incredible group of entrepreneurs who will
+                        undoubtedly play a significant role in our journey moving forward”
+                    </blockquote>
+
+                </div>
+                <div
+                    class="box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-white shadow-xl">
+                    <div class="flex justify-start items-center gap-4">
+                        <img class="rounded-full w-20 " src="../src/assets/avatars/Yoav-Oren.jpg">
+                        <div>
+                            <h3 class="block text-black pb-2">Yoav Oren, Co-Founder and CEO</h3>
+                            <a class="block" href="https://www.ludeo.com/"><img class="w-24"
+                                    src="https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/logos/batch-7/ludeologo.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                    <blockquote class="text-bodyText mt-4">
+                        “I thought the entrepreneurs in the program were exceptional, and I really
+                        enjoyed being with them, learning from their experience and hearing them out. I
+                        think the people in the program is what made it standout”
+                    </blockquote>
+
+                </div>
+                <div
+                    class=" box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white  border-white shadow-xl">
+                    <div class="flex justify-start items-center gap-4">
+                        <div
+                            class="rounded-full p-3 bg-lightBg absolute right-6 top-6 flex justify-center items-center cursor-pointer transition ease-in-out delay-150  hover:scale-110  duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class=" w-6 h-6 fill-red text-red">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+                            </svg>
+                        </div>
+                        <img class="rounded-full w-20 " src="../src/assets/avatars/Jonathan-Friedman,.png">
+                        <div>
+                            <h3 class="block text-black pb-2">Jonathan Friedman</h3>
+                            <a class="block" href="https://www.ludeo.com/"><img class="w-24"
+                                    src="https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/logos/batch-7/ludeologo.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                    <blockquote class="text-bodyText mt-4">
+                        "As a CEO you don't know what you don't know. The one thing you learn can save
+                        you months of time
+                        down the line"
+                    </blockquote>
+
+                </div>
+
+
+                <div
+                    class=" box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white  border-white shadow-xl">
+                    <div class="flex justify-start items-center gap-4">
+                        <div
+                            class="rounded-full p-3 bg-lightBg absolute right-6 top-6 flex justify-center items-center cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class=" w-6 h-6 fill-red text-red">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+                            </svg>
+                        </div>
+                        <img class="rounded-full w-20 " src="../src/assets/avatars/Guy-Benjamin.png">
+                        <div>
+                            <h3 class="block text-black pb-2">Guy Benjamin</h3>
+                            <a class="block" href="https://www.ludeo.com/"><img class="w-24"
+                                    src="https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/logos/batch-7/ludeologo.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                    <blockquote class="text-bodyText mt-4">
+
+                        "Even though we are founders of different companies, what keeps us up at night
+                        are the same
+                        problems"
+
+                    </blockquote>
+
+                </div>
+
+                <div
+                    class=" box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white  border-white shadow-xl">
+                    <div class="flex justify-start items-center gap-4">
+                        <div
+                            class="rounded-full p-3 bg-lightBg absolute right-6 top-6 flex justify-center items-center cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class=" w-6 h-6 fill-red text-red">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+                            </svg>
+                        </div>
+                        <img class="rounded-full w-20 " src="../src/assets/avatars/Yoav-Cohen.png">
+                        <div>
+                            <h3 class="block text-black pb-2">Yoav Cohen</h3>
+                            <a class="block" href="https://www.ludeo.com/"><img class="w-24"
+                                    src="https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/logos/batch-7/ludeologo.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                    <blockquote class="text-bodyText mt-4">
+                        “The Deloitte team went to extreme lengths to make us feel welcome here. It’s
+                        very well organized,
+                        very effective and it’s impressive”
+                    </blockquote>
+
+                </div>
+
+
+
+                <div
+                    class=" box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white  border-white shadow-xl">
+                    <div class="flex justify-start items-center gap-4">
+                        <div
+                            class=" rounded-full p-3 bg-lightBg absolute right-6 top-6 flex justify-center items-center cursor-pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class=" w-6 h-6 fill-red text-red">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+                            </svg>
+                        </div>
+                        <img class="rounded-full w-20 " src="../src/assets/avatars/Yonatan-Schreiber.png">
+                        <div>
+                            <h3 class="block text-black pb-2">Yonatan Schreiber</h3>
+                            <a class="block" href="https://www.ludeo.com/"><img class="w-24"
+                                    src="https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/logos/batch-7/ludeologo.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                    <blockquote class="text-bodyText mt-4">
+                        “This is an opportunity to take part in a program that encourages you to think
+                        more broadly about
+                        your bigger picture”
+
+                    </blockquote>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------------------------------------Are we a good match? 1 column--------------------------------------------------------------------  -->
+    <section class="px-4 py-20 md:py-48 bg-[url(../src/assets/cta-bg.svg)] bg-contain bg-no-repeat bg-center bg-white">
+        <div class="max-w-[1200px] mx-auto gap-24">
+            <h2 class="text-center text-3xl font-bold mb-3 text-black">Are We a Good Match?</h2>
+            <h2 class="text-center text-xl font-normal text-bodyText mb-10">The ideal startup will have the
+                following
+            </h2>
+            <div class=" grid grid-cols-3 gap-10 text-black ">
+                <div class="col-span-1 border-solid	border-[1px] border-border rounded-xl p-4 backdrop-blur shadow-md">
+                    <h3 class="text-2xl text-black mb-2">A Validated Product</h3>
+                    <p class="text-xl text-bodyText">Active traction in the market, an established customer base, VC
+                        backed
+                        (Post Seed - Round
+                        A+)
+                    </p>
+                </div>
+                <div class="col-span-1 border-solid	border-[1px] border-border rounded-xl p-4 backdrop-blur	shadow-md">
+                    <h3 class="text-2xl text-black mb-2">Over $500K in ARR</h3>
+                    <p class="text-xl text-bodyText">
+                        Positive YoY growth in revenue
+                    </p>
+                </div>
+                <div class="col-span-1 border-solid	border-[1px] border-border rounded-xl p-4 backdrop-blur	shadow-md">
+                    <h3 class="text-2xl text-black mb-2">A US Expansion Plan</h3>
+                    <p class="text-xl text-bodyText">
+                        companies with a relocation and/or expansion to the U.S on their two-year roadmap
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------------------------------------Program Value--------------------------------------------------------------------->
+    <section class="px-4 py-20 bg-lightBg ">
+        <div class="max-w-[1200px] mx-auto grid grid-cols-12 gap-24">
+            <div class="col-span-7 pr-10 ">
+                <h2 class="text-3xl font-bold mb-4 text-black sticky top-0">Program Value</h2>
+                <p class="text-xl font-normal mb-16 text-bodyText ">Deloitte Launchpad’s equity and fee-free program
+                    supports early-growth stage founders in four ways</p>
+                <div>
+                    <img class="pr-28 w-[80%]" src="../src/assets/all live assets/demostack3.png" alt="">
+                    <img class="pl-20 w-[80%] mt-[-80px]" src="../src/assets/all live assets/blings.png" alt="">
+                </div>
+
+            </div>
+            <div class="col-span-5 grid grid-cols-1 gap-10 text-black">
+                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
+                    <p class="text-black text-4xl mb-2">01</p>
+                    <h3 class="text-xl pb-2 text-bodyText">Focus on improving your US go-to-market strategy</h3>
+                </div>
+                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
+                    <p class="text-black text-4xl mb-2">02</p>
+                    <h3 class="text-xl text-bodyText pb-2">Support for expansion and relocation to the US</h3>
+                </div>
+                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
+                    <p class="text-black text-4xl mb-2">03</p>
+                    <h3 class="text-xl text-bodyText pb-2">Access to our vast network of VCs and global Deloitte
+                        ecosystem</h3>
+                </div>
+                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
+                    <p class="text-black text-4xl mb-2">04</p>
+                    <h3 class="text-xl text-bodyText  pb-2">Lifelong community of fellow Israeli startup founders</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------------------------------------------Program Value vesrion 2222222222222222--------------------------------------------------------------------->
+    <!-- <section class=" bg-lightBg ">
+        <div class="max-w-full mx-auto grid grid-cols-12 gap-24">
+            <div
+                class="col-span-4 pr-10 bg-[url(https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/images/apply-now-img-2024.jpg)] bg-cover bg-no-repeat bg-center">
+            </div>
+            <div class="col-span-8 grid grid-cols-1 gap-10 text-black py-20">
+                <div>
+                    <h2 class="text-3xl font-normal mb-4 text-black sticky top-0">Program Value</h2>
+                    <p class="text-xl font-normal mb-4 text-bodyText md:w-[60%]">Deloitte Launchpad’s equity and
+                        fee-free program
+                        supports early-growth stage founders in four ways</p>
+                </div>
+
+                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
+                    <p class="text-black text-4xl mb-2">01</p>
+                    <h3 class="text-xl pb-2 text-bodyText">Focus on improving your US go-to-market strategy</h3>
+                </div>
+                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
+                    <p class="text-black text-4xl mb-2">02</p>
+                    <h3 class="text-xl text-bodyText pb-2">Support for expansion and relocation to the US</h3>
+                </div>
+                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
+                    <p class="text-black text-4xl mb-2">03</p>
+                    <h3 class="text-xl text-bodyText pb-2">Access to our vast network of VCs and global Deloitte
+                        ecosystem</h3>
+                </div>
+                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
+                    <p class="text-black text-4xl mb-2">04</p>
+                    <h3 class="text-xl text-bodyText  pb-2">Lifelong community of fellow Israeli startup founders</h3>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!--------------------------------------------------------------------TIME LINE -------------------------------------------------------------------  -->
+
+    <section class=" bg-white ">
+        <div class="max-w-full mx-auto grid grid-cols-12 gap-24">
+            <div
+                class="col-span-6 pr-10 bg-[url(https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/images/apply-now-img-2024.jpg)] bg-cover bg-no-repeat bg-center">
+            </div>
+            <div class="col-span-6 grid grid-cols-1 gap-10 text-black py-20">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4 text-black sticky top-0">Program Timeline</h2>
+
+                </div>
+
+                <div class="col-span-5 grid grid-cols-1 gap-10 text-black">
+                    <ul role="list" class="">
+                        <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
+                            <div
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                            </div>
+                            <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
+                            <h3 class="mt-2 text-xl font-medium text-black">Applications open</h3>
+                            <p class=" text-3xl order-first font-bold text-black">
+                                03.07.24
+                            </p>
+                        </li>
+                        <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
+                            <div
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                            </div>
+                            <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
+                            <h3 class="mt-2 text-xl font-medium text-black">Application deadline</h3>
+                            <p class="font-display text-3xl order-first font-bold  text-black">
+                                12.08.24
+                            </p>
+                        </li>
+                        <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
+                            <div
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                            </div>
+                            <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
+                            <h3 class="mt-2 text-xl font-medium text-black">Screening process</h3>
+                            <p class="font-display text-3xl order-first font-bold  text-black">
+                                13.08.24 – 22.09.24
+                            </p>
+                        </li>
+                        <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
+                            <div
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                            </div>
+                            <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
+                            <h3 class="mt-2 text-xl font-medium text-black">Announce selected startups </h3>
+                            <p class="font-display text-3xl order-first font-bold  text-black">
+                                30.09.24
+                            </p>
+                        </li>
+                        <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
+                            <div
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                            </div>
+                            <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
+                            <h3 class="mt-2 text-xl font-medium text-black">Launchpad start date </h3>
+                            <p class="font-display text-3xl order-first font-bold  text-black">
+                                30.10.24
+                            </p>
+                        </li>
+                        <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
+                            <div
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                            </div>
+                            <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
+                            <h3 class="mt-2 text-xl font-medium text-black">Program end date</h3>
+                            <p class="font-display text-3xl order-first font-bold  text-black">
+                                12.12.24
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="px-4 py-16 md:py-20 bg-lightBg">
+        <div class="max-w-[700px] mx-auto grid grid-cols-1 gap-10">
+
+            <div class="grid grid-cols-1 gap-10 text-black">
+                <div>
+                    <h2 class="text-3xl md:text-center font-bold mb-4 text-black">Our portfolio</h2>
+
+                    <div class="w-full">
+                        <div class="sm:hidden">
+                            <label for="Tab" class="sr-only">Tab</label>
+                            <select id="Tab" class="w-full rounded-md border-black py-4 px-3 cursor-pointer">
+                                <option value="batch-1">Batch 1</option>
+                                <option value="batch-2">Batch 2</option>
+                                <option value="batch-3">Batch 3</option>
+                                <option value="batch-4">Batch 4</option>
+                                <option value="batch-5">Batch 5</option>
+                                <option value="batch-6">Batch 6</option>
+                                <option value="batch-7" selected>Batch 7</option>
+                            </select>
+                        </div>
+
+                        <div class="hidden sm:block p-1">
+                            <nav class="flex justify-evenly items-center gap-6 p-5" aria-label="Tabs">
+
+                                <button id="btn-batch-1"
+                                    class="tab-button px-2 py-1 rounded-full hover:bg-green hover:text-white  active:bg-green active:text-white">
+                                    Batch
+                                    1</button>
+                                <button id="btn-batch-2"
+                                    class="tab-button px-2 py-1 rounded-full hover:bg-green hover:text-white active:bg-green active:text-white">Batch
+                                    2</button>
+                                <button id="btn-batch-3"
+                                    class="tab-button px-2 py-1 rounded-full hover:bg-green hover:text-white active:bg-green active:text-white">Batch
+                                    3</button>
+                                <button id="btn-batch-4"
+                                    class="tab-button px-2 py-1 rounded-full hover:bg-green hover:text-white active:bg-green active:text-white">Batch
+                                    4</button>
+                                <button id="btn-batch-5"
+                                    class="tab-button px-2 py-1 rounded-full hover:bg-green hover:text-white active:bg-green active:text-white">Batch
+                                    5</button>
+                                <button id="btn-batch-6"
+                                    class="tab-button px-2 py-1 rounded-full hover:bg-green hover:text-white active:bg-green active:text-white">Batch
+                                    6</button>
+                                <button id="btn-batch-7"
+                                    class="tab-button px-2 py-1 rounded-full hover:bg-green hover:text-white active:bg-green active:text-white">Batch
+                                    7</button>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 1 -->
+                <div id="batch-1-logos" class="hidden grid grid-cols-2 md:grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
+                        alt="">
+                </div>
+                <!-- 2 -->
+                <div id="batch-2-logos" class="hidden grid grid-cols-2 md:grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                        alt="">
+                </div>
+                <!-- 3 -->
+                <div id="batch-3-logos" class="hidden grid grid-cols-2 md:grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
+                </div>
+                <!-- 4 -->
+                <div id="batch-4-logos" class="hidden grid grid-cols-2 md:grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
+                </div>
+                <!-- 5 -->
+                <div id="batch-5-logos" class="hidden grid grid-cols-2 md:grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
+                </div>
+                <!-- 6 -->
+                <div id="batch-6-logos" class="hidden grid grid-cols-2 md:grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]" src="../src/assets/logos/batch-6/Piiano Logo.png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]"
+                            src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png" alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]" src="../src/assets/logos/batch-6/Cyclops-logo.png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]"
+                            src="../src/assets/logos/batch-6/Entitle logo - dark.png" alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]"
+                            src="../src/assets/logos/batch-6/Indoor Robotics - Black on whitebackground logo.png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]"
+                            src="../src/assets/logos/batch-6/Logo for White Surface - Solid Color.png" alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]"
+                            src="../src/assets/logos/batch-6/Logo_Kahoona_Black.png" alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]" src="../src/assets/logos/batch-6/octopai.png" alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]" src="../src/assets/logos/batch-6/Piiano Logo.png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]"
+                            src="../src/assets/logos/batch-6/Statement logo-Black.png" alt="">
+                    </div>
+                </div>
+                <!-- 7 -->
+                <div id="batch-7-logos" class="grid grid-cols-2 md:grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]"
+                            src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png" alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[10rem]"
+                            src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- <script src="https://unpkg.com/gsap@3/dist/Draggable.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="./carousel.js"></script>
+    <script src="./script.js"></script>
+
+</body>

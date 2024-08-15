@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+  <g id="scroll_cintent" data-name="scroll cintent" transform="translate(865 732) rotate(180)">
+    <circle id="Ellipse_50" data-name="Ellipse 50" cx="45" cy="45" r="45" transform="translate(775 642)" fill="#f0f0f0"/>
+    <path id="Path_321" data-name="Path 321" d="M15,0,0,36.618l15-6.5,15,6.5v0L15,0Z" transform="translate(805 667)" fill="#121212" stroke="#121212" stroke-width="1"/>
+    <g id="Ellipse_49" data-name="Ellipse 49" transform="translate(785 652)" fill="none" stroke="#121212" stroke-width="3">
+      <circle cx="35" cy="35" r="35" stroke="none"/>
+      <circle cx="35" cy="35" r="33.5" fill="none"/>
+    </g>
+  </g>
+</svg>

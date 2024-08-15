@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="76.849" height="68.541" viewBox="0 0 76.849 68.541">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_63" data-name="Rectangle 63" width="76.849" height="68.541" fill="none" stroke="#86bc25" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="_03" data-name="03" transform="translate(0 0)">
+    <g id="Group_113" data-name="Group 113" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_61" data-name="Path 61" d="M27.307,14.423c2.219-3.385,5.219-8.749,6.108-9.894.456-.592.548-.875.2-1.3-.362-.441-1.131-.395-1.992-.149-1.608.461-3.591-.02-5.83-.655C21.312,1.158,14.847-.636,12.246,4.01c-.251.45-.077.4.424.944.886.967,3.624,5.871,5.754,9.186" transform="translate(3.729 0.308)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_62" data-name="Path 62" d="M43.674,23.54A42,42,0,0,0,31.221,11.848a11.219,11.219,0,0,0-11.334,0C6.429,19.076,1,33.1,1,39.987,1,53.906,12,57.532,25.555,57.532a59.962,59.962,0,0,0,13-1.217" transform="translate(0.307 3.166)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_63" data-name="Path 63" d="M19.863,15.609C9.583,21.13,5.436,31.839,5.436,37.1" transform="translate(1.671 4.798)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_64" data-name="Path 64" d="M16.782,35.886h0A2.616,2.616,0,0,0,19.4,38.5h2.615a2.616,2.616,0,0,0,2.615-2.615v-.731a2.615,2.615,0,0,0-1.788-2.48L18.57,31.253a2.615,2.615,0,0,1-1.788-2.48v-.731A2.616,2.616,0,0,1,19.4,25.427h2.615a2.616,2.616,0,0,1,2.615,2.615" transform="translate(5.158 7.816)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_18" data-name="Line 18" y1="3.922" transform="translate(25.862 29.32)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_19" data-name="Line 19" y2="3.922" transform="translate(25.862 46.316)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_65" data-name="Path 65" d="M29.782,23.427v6.537c0,2.166,4.1,3.922,9.152,3.922s9.152-1.756,9.152-3.922V23.427" transform="translate(9.154 7.201)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_66" data-name="Path 66" d="M29.782,28.427v6.537c0,2.166,4.1,3.922,9.152,3.922s9.152-1.756,9.152-3.922V28.427" transform="translate(9.154 8.738)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_67" data-name="Path 67" d="M29.782,33.427v6.537c0,2.166,4.1,3.922,9.152,3.922s9.152-1.756,9.152-3.922V33.427" transform="translate(9.154 10.275)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_68" data-name="Path 68" d="M29.782,38.427v6.537c0,2.166,4.1,3.922,9.152,3.922s9.152-1.756,9.152-3.922V38.427" transform="translate(9.154 11.811)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_69" data-name="Path 69" d="M29.782,43.427v6.537c0,2.166,4.1,3.922,9.152,3.922s9.152-1.756,9.152-3.922V43.427" transform="translate(9.154 13.348)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse id="Ellipse_39" data-name="Ellipse 39" cx="9.152" cy="3.922" rx="9.152" ry="3.922" transform="translate(38.936 26.705)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_70" data-name="Path 70" d="M43.782,34.427v6.537c0,2.166,4.1,3.922,9.152,3.922s9.152-1.756,9.152-3.922V34.427" transform="translate(13.457 10.582)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_71" data-name="Path 71" d="M43.782,39.427v6.537c0,2.166,4.1,3.922,9.152,3.922s9.152-1.756,9.152-3.922V39.427" transform="translate(13.457 12.119)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+      <ellipse id="Ellipse_40" data-name="Ellipse 40" cx="9.152" cy="3.922" rx="9.152" ry="3.922" transform="translate(57.239 41.086)" fill="none" stroke="#86bc25" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
