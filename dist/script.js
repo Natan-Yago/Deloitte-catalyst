@@ -9,68 +9,11 @@ function hidePopup() {
 // Example usage
 showPopup();
 // Simulate a process
-setTimeout(hidePopup, 8000); // Hide after 8 seconds
+setTimeout(hidePopup, 3000); // Hide after 3 seconds
 
 
 
-// document.addEventListener('DOMContentLoaded', function () {
-//     const buttons = document.querySelectorAll('button[id^="btn-batch-"]');
-//     const logoSets = document.querySelectorAll('div[id^="batch-"]');
-//     const select = document.getElementById('Tab');
 
-//     // Show Batch 7 logos by default and set the active button
-//     document.getElementById('btn-batch-7').classList.add('active');
-//     logoSets.forEach(set => {
-//         if (set.id === 'batch-7-logos') {
-//             set.classList.remove('hidden');
-//         } else {
-//             set.classList.add('hidden');
-//         }
-//     });
-
-//     buttons.forEach(button => {
-//         button.addEventListener('click', function () {
-//             const batchId = this.id.replace('btn-', '');
-
-//             // Remove active class from all buttons
-//             buttons.forEach(btn => btn.classList.remove('active'));
-
-//             // Add active class to the clicked button
-//             this.classList.add('active');
-
-//             // Show the relevant logo set and hide others
-//             logoSets.forEach(set => {
-//                 if (set.id === batchId + '-logos') {
-//                     set.classList.remove('hidden');
-//                 } else {
-//                     set.classList.add('hidden');
-//                 }
-//             });
-
-//             // Update the select element to match the clicked button
-//             select.value = batchId;
-//         });
-//     });
-
-//     select.addEventListener('change', function () {
-//         const batchId = this.value;
-
-//         // Remove active class from all buttons
-//         buttons.forEach(btn => btn.classList.remove('active'));
-
-//         // Add active class to the corresponding button
-//         document.getElementById('btn-' + batchId).classList.add('active');
-
-//         // Show the relevant logo set and hide others
-//         logoSets.forEach(set => {
-//             if (set.id === batchId + '-logos') {
-//                 set.classList.remove('hidden');
-//             } else {
-//                 set.classList.add('hidden');
-//             }
-//         });
-//     });
-// });
 
 
 

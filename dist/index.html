@@ -10,7 +10,7 @@
 
 </head>
 
-<body class="bg-lightBg">
+<body class="">
 
     <div id="popup" role="alert" class="rounded-xl border border-border bg-white p-4 w-[350px] absolute right-4 top-20">
         <div id="progressIndicator" class="spinner w-4 absolute right-6 bottom-2"></div>
@@ -60,21 +60,27 @@
         </div>
     </header>
 
-    <section class="px-4 pt-16 
-        ">
+    <section class="px-4 py-20">
+
+        <div
+            class="absolute -z-10 left-0 h-full w-full bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]">
+
+        </div>
+
+
         <div class="grid max-w-[1200px]  mx-auto lg:gap-8 xl:gap-0  lg:grid-cols-12 dark:bg-black">
             <div class="mr-auto place-self-center lg:col-span-7">
 
                 <!-- notice cmponent -->
                 <span
-                    class="inline-flex items-center justify-center rounded-full  px-2.5 py-0.5 border-[1px] border-green">
+                    class="inline-flex items-center justify-center rounded-full  px-2.5 py-0.5 text-black border-[1px] border-green/40">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="-ms-1 me-1.5 h-4 w-4  ">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
 
-                    <p class="whitespace-nowrap text-sm">Open for aplications</p>
+                    <p class="whitespace-nowrap text-sm text-black">Open for aplications</p>
                 </span>
                 <!-- notice cmponent -->
 
@@ -91,7 +97,7 @@
                         <span relative="relative z-10">Start Now</span>
                     </button>
                     <button
-                        class="flex justify-center items-center gap-3 before:ease relative rounded-2xl px-5 py-2 w-auto overflow-hidden border border-black  text-black  transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-green-500 hover:before:-translate-x-40">
+                        class="flex justify-center items-center gap-3 before:ease relative rounded-2xl px-5 py-2 w-auto overflow-hidden border bg-white border-black  text-black  transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-green-500 hover:before:-translate-x-40">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-6 ml-1">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -107,11 +113,13 @@
         </div>
     </section>
 
-    <section>
-        <div class="max-w-[1260px] mx-auto pb-10">
+    <!--------------------------------------------------------------------marquee--------------------------------------------------------------------->
 
+    <section class="bg-white">
+        <div class="max-w-[1200px] mx-auto pb-16">
+            <!-- ---------------------------------------------------------------------------LTR marquee---------------------------------------------------------- -->
             <div class="relative flex overflow-x-hidden">
-                <div class="py-12 animate-marquee whitespace-nowrap">
+                <div class="animate-marquee whitespace-nowrap">
                     <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
                         alt="">
                     <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
@@ -121,9 +129,13 @@
                         src="../src/assets/logos/batch-6/Indoor Robotics - Black on whitebackground logo.png" alt="">
                     <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
                         alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
                 </div>
 
-                <div class="absolute top-0 py-12 animate-marquee2 whitespace-nowrap flex justify-center items-center">
+                <div class="absolute top-0 animate-marquee2 whitespace-nowrap flex justify-center items-center">
                     <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
                         alt="">
                     <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
@@ -134,19 +146,65 @@
                         alt="">
                     <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
                         alt="">
-
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
                 </div>
 
                 <div
-                    class="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-lightBg dark:from-background z-40">
+                    class="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-white dark:from-background z-40">
                 </div>
                 <div
-                    class="pointer-events-none absolute inset-y-0 right-0 w-[5%] bg-gradient-to-l from-lightBg dark:from-background z-40">
+                    class="pointer-events-none absolute inset-y-0 right-0 w-[5%] bg-gradient-to-l from-white dark:from-background z-40">
                 </div>
             </div>
+            <!-- ---------------------------------------------------------------------------RTL marquee---------------------------------------------------------- -->
+            <div class="relative flex overflow-x-hidden">
+                <div class="animate-marqueeRtl whitespace-nowrap">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Piiano Logo.png" alt="">
+                    <img class="inline-block mx-4 w-[8rem]"
+                        src="../src/assets/logos/batch-6/Indoor Robotics - Black on whitebackground logo.png" alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                </div>
 
+                <div class="absolute top-0 animate-marquee2Rtl whitespace-nowrap flex justify-center items-center">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Statement logo-Black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Logo_Kahoona_Black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                </div>
+
+                <div
+                    class="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-white dark:from-background z-40">
+                </div>
+                <div
+                    class="pointer-events-none absolute inset-y-0 right-0 w-[5%] bg-gradient-to-l from-white dark:from-background z-40">
+                </div>
+
+            </div>
         </div>
     </section>
+
     <!--------------------------------------------------------------------What We Do--------------------------------------------------------------------->
     <section class="px-4 py-20 md:py-28 bg-white">
         <div class="max-w-[1200px] mx-auto grid grid-cols-12 gap-24">
@@ -174,8 +232,104 @@
             </div>
         </div>
     </section>
+    <!--------------------------------------------------------------------marquee--------------------------------------------------------------------->
+
+    <section class="bg-white">
+        <div class="max-w-[1200px] mx-auto pb-16">
+            <!-- ---------------------------------------------------------------------------LTR marquee---------------------------------------------------------- -->
+            <div class="relative flex overflow-x-hidden">
+                <div class="animate-marquee whitespace-nowrap">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Piiano Logo.png" alt="">
+                    <img class="inline-block mx-4 w-[8rem]"
+                        src="../src/assets/logos/batch-6/Indoor Robotics - Black on whitebackground logo.png" alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                </div>
+
+                <div class="absolute top-0 animate-marquee2 whitespace-nowrap flex justify-center items-center">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Statement logo-Black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Logo_Kahoona_Black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                </div>
+
+                <div
+                    class="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-white dark:from-background z-40">
+                </div>
+                <div
+                    class="pointer-events-none absolute inset-y-0 right-0 w-[5%] bg-gradient-to-l from-white dark:from-background z-40">
+                </div>
+            </div>
+            <!-- ---------------------------------------------------------------------------RTL marquee---------------------------------------------------------- -->
+            <div class="relative flex overflow-x-hidden">
+                <div class="animate-marqueeRtl whitespace-nowrap">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Piiano Logo.png" alt="">
+                    <img class="inline-block mx-4 w-[8rem]"
+                        src="../src/assets/logos/batch-6/Indoor Robotics - Black on whitebackground logo.png" alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                </div>
+
+                <div class="absolute top-0 animate-marquee2Rtl whitespace-nowrap flex justify-center items-center">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Statement logo-Black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Logo_Kahoona_Black.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                    <img class="inline-block mx-4 w-[8rem]" src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                        alt="">
+                </div>
+
+                <div
+                    class="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-white dark:from-background z-40">
+                </div>
+                <div
+                    class="pointer-events-none absolute inset-y-0 right-0 w-[5%] bg-gradient-to-l from-white dark:from-background z-40">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
     <!--------------------------------------------------------------------From founders Like you--------------------------------------------------------------------->
-    <section class="px-4 py-20 ">
+    <section class="px-4 py-20 bg-lightBg">
         <div class="max-w-[1200px] mx-auto">
             <div class="flex justify-between items-center">
                 <h2 class="text-3xl font-bold mb-4 text-black">From founders Like you</h2>
@@ -349,29 +503,35 @@
         </div>
     </section>
     <!--------------------------------------------------------------------Are we a good match? 1 column--------------------------------------------------------------------  -->
-    <section class="px-4 py-20 md:py-48 bg-[url(../src/assets/cta-bg.svg)] bg-contain bg-no-repeat bg-center bg-white">
+
+
+
+    <section class="px-4 py-20 md:py-32 relative overflow-hidden bg-black">
         <div class="max-w-[1200px] mx-auto gap-24">
-            <h2 class="text-center text-3xl font-bold mb-3 text-black">Are We a Good Match?</h2>
+            <h2 class="text-center text-3xl font-bold mb-3 text-white">Are We a Good Match?</h2>
             <h2 class="text-center text-xl font-normal text-bodyText mb-10">The ideal startup will have the
                 following
             </h2>
-            <div class=" grid grid-cols-3 gap-10 text-black ">
-                <div class="col-span-1 border-solid	border-[1px] border-border rounded-xl p-4 backdrop-blur shadow-md">
-                    <h3 class="text-2xl text-black mb-2">A Validated Product</h3>
+            <div class=" grid grid-cols-3 gap-10 text-white ">
+                <div
+                    class="col-span-1 border-solid	border-[1px] border-borderDark rounded-xl p-4 backdrop-blur shadow-md">
+                    <h3 class="text-2xl text-white mb-2">A Validated Product</h3>
                     <p class="text-xl text-bodyText">Active traction in the market, an established customer base, VC
                         backed
                         (Post Seed - Round
                         A+)
                     </p>
                 </div>
-                <div class="col-span-1 border-solid	border-[1px] border-border rounded-xl p-4 backdrop-blur	shadow-md">
-                    <h3 class="text-2xl text-black mb-2">Over $500K in ARR</h3>
+                <div
+                    class="col-span-1 border-solid	border-[1px] border-borderDark rounded-xl p-4 backdrop-blur	shadow-md">
+                    <h3 class="text-2xl text-white mb-2">Over $500K in ARR</h3>
                     <p class="text-xl text-bodyText">
                         Positive YoY growth in revenue
                     </p>
                 </div>
-                <div class="col-span-1 border-solid	border-[1px] border-border rounded-xl p-4 backdrop-blur	shadow-md">
-                    <h3 class="text-2xl text-black mb-2">A US Expansion Plan</h3>
+                <div
+                    class="col-span-1 border-solid	border-[1px] border-borderDark rounded-xl p-4 backdrop-blur	shadow-md">
+                    <h3 class="text-2xl text-white mb-2">A US Expansion Plan</h3>
                     <p class="text-xl text-bodyText">
                         companies with a relocation and/or expansion to the U.S on their two-year roadmap
                     </p>
@@ -414,112 +574,78 @@
         </div>
     </section>
 
-    <!--------------------------------------------------------------------Program Value vesrion 2222222222222222--------------------------------------------------------------------->
-    <!-- <section class=" bg-lightBg ">
-        <div class="max-w-full mx-auto grid grid-cols-12 gap-24">
-            <div
-                class="col-span-4 pr-10 bg-[url(https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/images/apply-now-img-2024.jpg)] bg-cover bg-no-repeat bg-center">
-            </div>
-            <div class="col-span-8 grid grid-cols-1 gap-10 text-black py-20">
-                <div>
-                    <h2 class="text-3xl font-normal mb-4 text-black sticky top-0">Program Value</h2>
-                    <p class="text-xl font-normal mb-4 text-bodyText md:w-[60%]">Deloitte Launchpad’s equity and
-                        fee-free program
-                        supports early-growth stage founders in four ways</p>
-                </div>
-
-                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
-                    <p class="text-black text-4xl mb-2">01</p>
-                    <h3 class="text-xl pb-2 text-bodyText">Focus on improving your US go-to-market strategy</h3>
-                </div>
-                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
-                    <p class="text-black text-4xl mb-2">02</p>
-                    <h3 class="text-xl text-bodyText pb-2">Support for expansion and relocation to the US</h3>
-                </div>
-                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
-                    <p class="text-black text-4xl mb-2">03</p>
-                    <h3 class="text-xl text-bodyText pb-2">Access to our vast network of VCs and global Deloitte
-                        ecosystem</h3>
-                </div>
-                <div class="col-span-1 border-solid	border-b-[1px] border-border pb-4">
-                    <p class="text-black text-4xl mb-2">04</p>
-                    <h3 class="text-xl text-bodyText  pb-2">Lifelong community of fellow Israeli startup founders</h3>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <!--------------------------------------------------------------------TIME LINE -------------------------------------------------------------------  -->
 
-    <section class=" bg-white ">
+    <section class=" bg-black ">
         <div class="max-w-full mx-auto grid grid-cols-12 gap-24">
             <div
                 class="col-span-6 pr-10 bg-[url(https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/images/apply-now-img-2024.jpg)] bg-cover bg-no-repeat bg-center">
             </div>
-            <div class="col-span-6 grid grid-cols-1 gap-10 text-black py-20">
+            <div class="col-span-6 grid grid-cols-1 gap-10 py-20">
                 <div>
-                    <h2 class="text-3xl font-bold mb-4 text-black sticky top-0">Program Timeline</h2>
+                    <h2 class="text-3xl font-bold mb-4 text-white sticky top-0">Program Timeline</h2>
 
                 </div>
 
-                <div class="col-span-5 grid grid-cols-1 gap-10 text-black">
+                <div class="col-span-5 grid grid-cols-1 gap-10 text-white">
                     <ul role="list" class="">
                         <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
                             <div
-                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-white group-first:top-3">
                             </div>
                             <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
-                            <h3 class="mt-2 text-xl font-medium text-black">Applications open</h3>
-                            <p class=" text-3xl order-first font-bold text-black">
+                            <h3 class="mt-2 text-xl font-medium text-bodyText">Applications open</h3>
+                            <p class=" text-3xl order-first font-bold text-white">
                                 03.07.24
                             </p>
                         </li>
                         <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
                             <div
-                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-white group-first:top-3">
                             </div>
                             <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
-                            <h3 class="mt-2 text-xl font-medium text-black">Application deadline</h3>
-                            <p class="font-display text-3xl order-first font-bold  text-black">
+                            <h3 class="mt-2 text-xl font-medium text-bodyText">Application deadline</h3>
+                            <p class="font-display text-3xl order-first font-bold  text-white">
                                 12.08.24
                             </p>
                         </li>
                         <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
                             <div
-                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-white group-first:top-3">
                             </div>
                             <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
-                            <h3 class="mt-2 text-xl font-medium text-black">Screening process</h3>
-                            <p class="font-display text-3xl order-first font-bold  text-black">
+                            <h3 class="mt-2 text-xl font-medium text-bodyText">Screening process</h3>
+                            <p class="font-display text-3xl order-first font-bold  text-white">
                                 13.08.24 – 22.09.24
                             </p>
                         </li>
                         <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
                             <div
-                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-white group-first:top-3">
                             </div>
                             <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
-                            <h3 class="mt-2 text-xl font-medium text-black">Announce selected startups </h3>
-                            <p class="font-display text-3xl order-first font-bold  text-black">
+                            <h3 class="mt-2 text-xl font-medium text-bodyText">Announce selected startups </h3>
+                            <p class="font-display text-3xl order-first font-bold  text-white">
                                 30.09.24
                             </p>
                         </li>
                         <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
                             <div
-                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-white group-first:top-3">
                             </div>
                             <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
-                            <h3 class="mt-2 text-xl font-medium text-black">Launchpad start date </h3>
-                            <p class="font-display text-3xl order-first font-bold  text-black">
+                            <h3 class="mt-2 text-xl font-medium text-bodyText">Launchpad start date </h3>
+                            <p class="font-display text-3xl order-first font-bold  text-white">
                                 30.10.24
                             </p>
                         </li>
                         <li class="group relative flex flex-col pb-8 pl-7 last:pb-0">
                             <div
-                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-black group-first:top-3">
+                                class="absolute bottom-0 left-[calc(0.25rem-0.5px)] top-0 w-px bg-white group-first:top-3">
                             </div>
                             <div class="absolute left-0 top-2 h-2 w-2 rounded-full border border-green bg-green"></div>
-                            <h3 class="mt-2 text-xl font-medium text-black">Program end date</h3>
-                            <p class="font-display text-3xl order-first font-bold  text-black">
+                            <h3 class="mt-2 text-xl font-medium text-bodyText">Program end date</h3>
+                            <p class="font-display text-3xl order-first font-bold  text-white">
                                 12.12.24
                             </p>
                         </li>
@@ -530,7 +656,7 @@
         </div>
     </section>
 
-
+    <!-- ---------------------------------------------------------------------Our portfolio--------------------------- -->
     <section class="px-4 py-16 md:py-20 bg-lightBg">
         <div class="max-w-[700px] mx-auto grid grid-cols-1 gap-10">
 
@@ -604,7 +730,7 @@
                 <!-- 6 -->
                 <div id="batch-6-logos" class="hidden grid grid-cols-2 md:grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]" src="../src/assets/logos/batch-6/Piiano Logo.png"
+                        <img class="inline-block mx-4 w-[12rem]" src="../src/assets/logos/batch-6/Piiano Logo.png"
                             alt="">
                     </div>
                     <div class="flex justify-center items-center">
@@ -612,51 +738,88 @@
                             src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png" alt="">
                     </div>
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                        <img class="inline-block mx-4 w-[12rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
                             alt="">
                     </div>
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]" src="../src/assets/logos/batch-6/Cyclops-logo.png"
+                        <img class="inline-block mx-4 w-[12rem]" src="../src/assets/logos/batch-6/Cyclops-logo.png"
                             alt="">
                     </div>
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]"
+                        <img class="inline-block mx-4 w-[12rem]"
                             src="../src/assets/logos/batch-6/Entitle logo - dark.png" alt="">
                     </div>
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]"
+                        <img class="inline-block mx-4 w-[12rem]"
                             src="../src/assets/logos/batch-6/Indoor Robotics - Black on whitebackground logo.png"
                             alt="">
                     </div>
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]"
+                        <img class="inline-block mx-4 w-[12rem]"
                             src="../src/assets/logos/batch-6/Logo for White Surface - Solid Color.png" alt="">
                     </div>
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]"
+                        <img class="inline-block mx-4 w-[12rem]"
                             src="../src/assets/logos/batch-6/Logo_Kahoona_Black.png" alt="">
                     </div>
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]" src="../src/assets/logos/batch-6/octopai.png" alt="">
+                        <img class="inline-block mx-4 w-[12rem]" src="../src/assets/logos/batch-6/octopai.png" alt="">
                     </div>
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]" src="../src/assets/logos/batch-6/Piiano Logo.png"
+                        <img class="inline-block mx-4 w-[12rem]" src="../src/assets/logos/batch-6/Piiano Logo.png"
                             alt="">
                     </div>
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]"
+                        <img class="inline-block mx-4 w-[12rem]"
                             src="../src/assets/logos/batch-6/Statement logo-Black.png" alt="">
                     </div>
                 </div>
                 <!-- 7 -->
                 <div id="batch-7-logos" class="grid grid-cols-2 md:grid-cols-1 gap-6 lg:grid-cols-3 lg:gap-8">
                     <div class="flex justify-center items-center">
-                        <img class="inline-block mx-4 w-[10rem]"
-                            src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png" alt="">
+                        <img class="inline-block mx-4 w-[12rem]" src="../src/assets/logos/batch-6/octopai.png" alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[12rem]" src="../src/assets/logos/batch-6/Piiano Logo.png"
+                            alt="">
                     </div>
                     <div class="flex justify-center items-center">
                         <img class="inline-block mx-4 w-[10rem]"
                             src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png" alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[12rem]" src="../src/assets/logos/batch-6/bioT logo black.png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[12rem]" src="../src/assets/logos/batch-6/Cyclops-logo.png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[12rem]"
+                            src="../src/assets/logos/batch-6/Entitle logo - dark.png" alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[12rem]"
+                            src="../src/assets/logos/batch-6/Indoor Robotics - Black on whitebackground logo.png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[12rem]"
+                            src="../src/assets/logos/batch-6/Logo for White Surface - Solid Color.png" alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[12rem]"
+                            src="../src/assets/logos/batch-6/Logo_Kahoona_Black.png" alt="">
+                    </div>
+
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[12rem]" src="../src/assets/logos/batch-6/Piiano Logo.png"
+                            alt="">
+                    </div>
+                    <div class="flex justify-center items-center">
+                        <img class="inline-block mx-4 w-[12rem]"
+                            src="../src/assets/logos/batch-6/Statement logo-Black.png" alt="">
                     </div>
 
                 </div>
