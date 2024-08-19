@@ -1,11 +1,4 @@
-.popup {
-    display: none; /* Initially hidden */
-    position: fixed;
-    top: 10%;
-    right: 5%;
-    transform: translate(-50%, -50%);
-    /* Additional styling */
-}
+
 
 .spinner {
     border: 5px solid #f3f3f3; /* Light grey */

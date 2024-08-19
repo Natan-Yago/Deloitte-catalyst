@@ -12,7 +12,22 @@ showPopup();
 setTimeout(hidePopup, 3000); // Hide after 3 seconds
 
 
+document.addEventListener("DOMContentLoaded", function() {
+    const button = document.getElementById("animated-button");
 
+    gsap.to(button, {
+        duration: 4,
+        borderColor: "rgba(0, 128, 0, 1)",
+        ease: "linear",
+        onComplete: function() {
+            // Reset the border color if needed
+            gsap.to(button, {
+                duration: 0,
+                borderColor: "rgba(0, 128, 0, 0.4)"
+            });
+        }
+    });
+});
 
 
 
@@ -23,8 +38,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const select = document.getElementById('Tab');
 
     // Show Batch 7 logos by default and set the active button
-    document.getElementById('btn-batch-7').classList.add('bg-green');
-    document.getElementById('btn-batch-7').classList.add('text-white');
+    document.getElementById('btn-batch-7').classList.add('bg-lightGreen');
+    document.getElementById('btn-batch-7').classList.add('text-green');
 
     logoSets.forEach(set => {
         if (set.id === 'batch-7-logos') {
@@ -39,12 +54,12 @@ document.addEventListener('DOMContentLoaded', function () {
             const batchId = this.id.replace('btn-', '');
 
             // Remove active class from all buttons
-            buttons.forEach(btn => btn.classList.remove('bg-green'));
-            buttons.forEach(btn => btn.classList.remove('text-white'));
+            buttons.forEach(btn => btn.classList.remove('bg-lightGreen'));
+            buttons.forEach(btn => btn.classList.remove('text-green'));
 
             // Add active class to the clicked button
-            this.classList.add('bg-green');
-            this.classList.add('text-white');
+            this.classList.add('bg-lightGreen');
+            this.classList.add('text-green');
 
 
             // Show the relevant logo set and hide others
@@ -65,10 +80,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const batchId = this.value;
 
         // Remove active class from all buttons
-        buttons.forEach(btn => btn.classList.remove('bg-green'));
+        buttons.forEach(btn => btn.classList.remove('bg-lightGreen'));
 
         // Add active class to the corresponding button
-        document.getElementById('btn-' + batchId).classList.add('bg-green');
+        document.getElementById('btn-' + batchId).classList.add('bg-lightGreen');
 
         // Show the relevant logo set and hide others
         logoSets.forEach(set => {
