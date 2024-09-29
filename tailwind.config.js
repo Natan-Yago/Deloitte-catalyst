@@ -9,7 +9,7 @@ module.exports = {
         lightGreen: '#dde5b6',
         red: '#FF0000',
         white: '#ffffff',
-        lightBg: '#F3EFE7',
+        lightBg: '#fafafa',
         darkBg: '#ffffff',
         black: '#000000',
         bodyText: '#6b6b6b',
