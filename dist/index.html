@@ -1,110 +1,17 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en" dir="ltr" class="light class=" scroll-smooth"">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Deloitte Launchpad</title>
   <link rel="stylesheet" href="./output.css" />
   <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body class="selection:bg-lightGreen">
-  <!-- pop up START-->
-  <div
-    id="popup"
-    role="alert"
-    class="z-50 rounded-xl border border-border bg-white p-4 w-[350px] fixed right-4 top-20 shadow-md"
-  >
-    <!-- <div id="progressIndicator" class="spinner w-4 absolute right-6 bottom-2"></div> -->
-    <div role="status">
-      <svg
-        aria-hidden="true"
-        class="w-6 h-6 absolute right-6 bottom-2 text-white animate-spin fill-green"
-        viewBox="0 0 100 101"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z"
-          fill="currentColor"
-        />
-        <path
-          d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z"
-          fill="currentFill"
-        />
-      </svg>
-      <span class="sr-only">Loading...</span>
-    </div>
-
-    <div class="flex items-start gap-4">
-      <span class="text-black">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="h-6 w-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-      </span>
-
-      <div class="flex-1">
-        <strong class="block font-medium text-black">
-          Next program starts testttttt</strong
-        >
-
-        <p class="mt-1 text-sm text-bodyText">25.01.2025</p>
-
-        <button
-          class="flex justify-center items-center mt-4 gap-3 before:ease relative rounded-2xl px-3 py-1 w-auto overflow-hidden border border-black text-black transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-green-500 hover:before:-translate-x-40"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-5 ml-1"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5"
-            />
-          </svg>
-          <span relative="relative z-10 text-[14px]">Remind Me</span>
-        </button>
-      </div>
-
-      <button class="text-bodyText transition">
-        <span class="sr-only">Dismiss popup</span>
-
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="h-6 w-6"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        </svg>
-      </button>
-    </div>
-  </div>
-  <!-- pop up END-->
-
+  <!--------------------------------------------------------------------header--------------------------------------------------------------------->
   <header class="bg-black sticky top-0 z-50">
     <div class="max-w-[1200px] mx-auto py-5 px-4 md:px-0">
       <div class="flex justify-between items-center">
@@ -112,15 +19,17 @@
       </div>
     </div>
   </header>
-
-  <section class="px-4 py-20">
+  <!--------------------------------------------------------------------hero--------------------------------------------------------------------->
+  <section class="px-4 py-8 md:py-16">
     <!-- dot bg start-->
     <div
       class="absolute -z-10 left-0 h-full w-full bg-[radial-gradient(#e1e2e4_1px,transparent_1px)] [background-size:16px_16px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]"
     ></div>
     <!-- dot bg end-->
 
-    <div class="grid max-w-[1200px] mx-auto lg:gap-8 xl:gap-0 lg:grid-cols-12">
+    <div
+      class="grid max-w-[1200px] mx-auto gap-10 lg:gap-8 xl:gap-0 lg:grid-cols-12"
+    >
       <div class="mr-auto place-self-center lg:col-span-7">
         <div class="pt-8">
           <span
@@ -133,38 +42,53 @@
               class="inline-flex h-full w-full justify-center rounded-full bg-white px-3 py-1 text-xs font-medium leading-5 text-black backdrop-blur-xl"
             >
               Next program starts | October 30, 2024 ⚡️
-              <!-- <span class="inline-flex items-center pl-2 text-black dark:text-white">
-                                Read more
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="pl-0.5 text-black dark:text-white">
-                                    <path d="M5 12h14"></path>
-                                    <path d="m12 5 7 7-7 7"></path>
-                                </svg>
-                            </span> -->
+              <span
+                class="hidden md:inline-flex items-center pl-2 text-black dark:text-white"
+              >
+                Read more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="pl-0.5 text-black dark:text-white"
+                >
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </span>
             </div>
           </span>
         </div>
 
         <h1
-          class="text-black max-w-2xl mb-4 text-6xl font-light tracking-tight leading-none md:text-7xl md:font-bold xl:text-8xl"
+          class="text-black max-w-2xl mb-4 text-7xl font-bold tracking-tight leading-none md:text-7xl xl:text-8xl"
         >
           Deloitte <span class="font-light text-green">Launch</span
           ><i class="font-light">pad</i>
         </h1>
         <p
-          class="max-w-2xl mb-6 font-light text-bodyText lg:mb-8 md:text-lg lg:text-xl"
+          class="max-w-2xl mb-6 font-normal  text-bodyText lg:mb-8 md:text-lg lg:text-xl"
         >
           Helping Israeli founders scale in the US
         </p>
-        <div class="flex flex-row gap-4">
+        <div class="flex flex-col md:flex-row gap-4">
           <button
-            class="before:ease relative rounded-full h-12 w-40 overflow-hidden border border-green bg-green text-white transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-green-500 hover:before:-translate-x-40"
+            class="before:ease relative rounded-full h-12 w-full sm:w-48 overflow-hidden border border-green bg-green text-white transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-green-500 hover:before:-translate-x-40"
+            aria-label="Start program now"
+            tabindex="0"
           >
-            <span relative="relative z-10">Start Now</span>
+            <span class="relative z-10">Start Now</span>
           </button>
           <button
-            class="flex justify-center items-center gap-3 before:ease relative rounded-full px-5 py-2 w-auto overflow-hidden border bg-white border-black text-black transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-green-500 hover:before:-translate-x-40"
+            class="flex justify-center items-center gap-3 before:ease relative rounded-full h-12 w-full sm:w-52 overflow-hidden border bg-white border-black text-black transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:shadow-green-500 hover:before:-translate-x-40"
+            aria-label="Set reminder for later"
+            tabindex="0"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -173,6 +97,7 @@
               stroke-width="1.5"
               stroke="currentColor"
               class="w-6 ml-1"
+              aria-hidden="true"
             >
               <path
                 stroke-linecap="round"
@@ -180,7 +105,7 @@
                 d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5"
               />
             </svg>
-            <span relative="relative z-10">Remind Me Later</span>
+            <span class="relative z-10">Remind Me Later</span>
           </button>
         </div>
       </div>
@@ -189,176 +114,113 @@
       </div>
     </div>
   </section>
-
   <!--------------------------------------------------------------------marquee--------------------------------------------------------------------->
-  <section class="bg-white">
-    <div class="max-w-[1200px] mx-auto pb-16">
-      <!-- ---------------------------------------------------------------------------RTL marquee---------------------------------------------------------- -->
-
-      <div class="relative flex overflow-hidden">
-        <div class="animate-marqueeRtl whitespace-nowrap">
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/bioT logo black.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/Cyclops-logo.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/Entitle logo - dark.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/Indoor Robotics - Black on whitebackground logo.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/octopai.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/Piiano Logo.png"
-            alt=""
-          />
+    <!-- GSAP Marquee Section -->
+    <section class="px-4 mb-16 bg-white">
+        <div class="max-w-[1200px] mx-auto">
+    
+          <!-- LTR GSAP Marquee -->
+          <div class="relative overflow-hidden mb-8">
+            <div class="gsap-ltr-marquee flex items-center gap-8">
+              <!-- First set of logos -->
+              <div class="flex items-center gap-8 min-w-max">
+                <img
+                  class="w-[8rem]"
+                  src="../src/assets/logos/batch-7/clarity.png"
+                  alt="Partner logo"
+                />
+                <img
+                  class="w-[8rem]"
+                  src="../src/assets/logos/batch-7/Cyabra_logo.png"
+                  alt="Partner logo"
+                />
+                <img
+                  class="w-[8rem]"
+                  src="../src/assets/logos/batch-7/Juno-Journey-logo.png"
+                  alt="Partner logo"
+                />
+                <img
+                  class="w-[8rem]"
+                  src="../src/assets/logos/batch-7/LayerXlogo.png"
+                  alt="Partner logo"
+                />
+                <img
+                  class="w-[8rem]"
+                  src="../src/assets/logos/batch-7/ludeologo.png"
+                  alt="Partner logo"
+                />
+              </div>
+            </div>
+            <!-- Gradient overlays -->
+            <div
+              class="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-white z-40"
+            ></div>
+            <div
+              class="pointer-events-none absolute inset-y-0 right-0 w-[5%] bg-gradient-to-l from-white z-40"
+            ></div>
+          </div>
+    
+          <!-- RTL GSAP Marquee -->
+          <div class="relative overflow-hidden">
+            <div class="gsap-rtl-marquee flex items-center gap-8">
+              <!-- First set of logos -->
+              <div class="flex items-center gap-8 min-w-max">
+                <img
+                  class="w-[8rem]"
+                  src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
+                  alt="Partner logo"
+                />
+                <img
+                  class="w-[8rem]"
+                  src="../src/assets/logos/batch-6/bioT logo black.png"
+                  alt="Partner logo"
+                />
+                <img
+                  class="w-[8rem]"
+                  src="../src/assets/logos/batch-6/Cyclops-logo.png"
+                  alt="Partner logo"
+                />
+                <img
+                  class="w-[8rem]"
+                  src="../src/assets/logos/batch-6/Entitle logo - dark.png"
+                  alt="Partner logo"
+                />
+                <img
+                  class="w-[8rem]"
+                  src="../src/assets/logos/batch-6/octopai.png"
+                  alt="Partner logo"
+                />
+                <img
+                class="w-[8rem]"
+                src="../src/assets/logos/batch-7/LayerXlogo.png"
+                alt="Partner logo"
+              />
+              <img
+                class="w-[8rem]"
+                src="../src/assets/logos/batch-7/ludeologo.png"
+                alt="Partner logo"
+              />
+              </div>
+            </div>
+            <!-- Gradient overlays -->
+            <div
+              class="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-white z-40"
+            ></div>
+            <div
+              class="pointer-events-none absolute inset-y-0 right-0 w-[5%] bg-gradient-to-l from-white z-40"
+            ></div>
+          </div>
         </div>
-
-        <div
-          class="absolute top-0 animate-marquee2Rtl whitespace-nowrap flex justify-center items-center"
-        >
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/Logo for White Surface - Solid Color.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/Logo_Kahoona_Black.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/octopai.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/Piiano Logo.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/Statement logo-Black.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/All_Colors_logo_AI-01.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-6/bioT logo black.png"
-            alt=""
-          />
-        </div>
-        <div
-          class="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-white dark:from-background z-40"
-        ></div>
-        <div
-          class="pointer-events-none absolute inset-y-0 right-0 w-[5%] bg-gradient-to-l from-white dark:from-background z-40"
-        ></div>
-      </div>
-      <!-- ---------------------------------------------------------------------------LTR marquee---------------------------------------------------------- -->
-      <div class="relative flex overflow-hidden">
-        <div class="animate-marquee whitespace-nowrap">
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-7/clarity.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-7/Cyabra_logo.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-7/Juno-Journey-logo.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-7/LayerXlogo.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-7/ludeologo.png"
-            alt=""
-          />
-        </div>
-
-        <div
-          class="absolute top-0 animate-marquee2 whitespace-nowrap flex justify-center items-center"
-        >
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-7/opmed.ailogo.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-7/promptsecuritylogo.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-7/trustmilogo.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-7/Winn.png"
-            alt=""
-          />
-          <img
-            class="inline-block mx-4 w-[8rem]"
-            src="../src/assets/logos/batch-7/zooglogo.png"
-            alt=""
-          />
-        </div>
-
-        <div
-          class="pointer-events-none absolute inset-y-0 left-0 w-[5%] bg-gradient-to-r from-white dark:from-background z-40"
-        ></div>
-        <div
-          class="pointer-events-none absolute inset-y-0 right-0 w-[5%] bg-gradient-to-l from-white dark:from-background z-40"
-        ></div>
-      </div>
-    </div>
-  </section>
-
+    </section>
   <!--------------------------------------------------------------------What We Do--------------------------------------------------------------------->
-  <section class="px-4 py-20 md:py-28 relative overflow-hidden">
+  <section class="px-4 py-20 relative">
     <div
-      class="absolute top-0 left-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#242424_1px,#000000_1px)] bg-[size:20px_20px]"
+      class="absolute top-0 left-0 z-[-2] h-full w-full bg-[#000000] bg-[radial-gradient(#242424_1px,#000000_1px)] bg-[size:20px_20px]"
     ></div>
-    <div class="max-w-[1200px] mx-auto grid grid-cols-12 gap-24">
-      <div class="col-span-7 pr-10">
+    <div class="max-w-[1200px] mx-auto flex flex-col md:flex-row gap-20 md:gap-10">
+      <div class="box-1 md:w-[50%] ">
         <h2 class="text-3xl font-bold mb-4 text-white">What We Do</h2>
-        <p class="text-white text-3xl">
+        <p class="text-white text-xl md:text-2xl w-full">
           We support Israeli startup founders scaling and expanding in the
           <span class="text-green">US market</span>
           through a community of
@@ -368,26 +230,26 @@
           <span class="text-green">programming</span>.
         </p>
       </div>
-      <div class="col-span-5 grid grid-cols-1 gap-10 text-white">
-        <div class="col-span-1 border-solid border-b-[1px] border-borderDark">
+      <div class="box-2">
+        <div class=" text-white">
+        <div class=" border-solid border-b-[1px] border-borderDark py-2">
           <p class="pb-5">
-            <span class="text-8xl pr-4">100+</span>Industry Experts
+            <span class="text-6xl md:text-8xl pr-4">100+</span>Industry Experts
           </p>
         </div>
-        <div class="col-span-1 border-solid border-b-[1px] border-borderDark">
+        <div class=" border-solid border-b-[1px] border-borderDark py-2">
           <p class="pb-5">
-            <span class="text-8xl pr-4">63</span>Alumni Companies
+            <span class="text-6xl md:text-8xl pr-4">63</span>Alumni Companies
           </p>
         </div>
-        <div class="col-span-1 border-solid border-b-[1px] border-borderDark">
+        <div class=" border-solid border-b-[1px] border-borderDark py-2">
           <p class="pb-5">
-            <span class="text-8xl pr-4">$1.3B</span>Funding Raised
+            <span class="text-6xl md:text-8xl pr-4">$1.3B</span>Funding Raised
           </p>
         </div>
       </div>
     </div>
   </section>
-
   <!--------------------------------------------------------------------From founders Like you--------------------------------------------------------------------->
   <section class="px-4 py-20 bg-lightBg">
     <div class="max-w-[1200px] mx-auto">
@@ -425,9 +287,9 @@
         </div>
       </div>
 
-      <div class="overflow-hidden flex items-center mt-4 gap-10 py-10">
+      <div class="overflow-hidden flex items-center mt-4 gap-10 py-0 md:py-10">
         <div
-          class="box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-white shadow-xl"
+          class="box shrink-0 min-h-[250px] w-[100%] md:w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-black  "
         >
           <div class="flex justify-start items-center gap-4 relative">
             <img
@@ -447,17 +309,17 @@
             </div>
           </div>
           <blockquote class="text-bodyText mt-4">
-            “We are thrilled to be part of an incredible group of entrepreneurs
+            "We are thrilled to be part of an incredible group of entrepreneurs
             who will undoubtedly play a significant role in our journey moving
-            forward”
+            forward"
           </blockquote>
         </div>
         <div
-          class="box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-white shadow-xl"
+          class="box shrink-0 min-h-[250px] w-[99%] md:w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-black  "
         >
           <div class="flex justify-start items-center gap-4">
             <img
-              class="rounded-full w-20"
+              class="rounded-full w-20 "
               src="../src/assets/avatars/Yoav-Oren.jpg"
             />
             <div>
@@ -473,22 +335,22 @@
             </div>
           </div>
           <blockquote class="text-bodyText mt-4">
-            “I thought the entrepreneurs in the program were exceptional, and I
+            "I thought the entrepreneurs in the program were exceptional, and I
             really enjoyed being with them, learning from their experience and
             hearing them out. I think the people in the program is what made it
-            standout”
+            standout"
           </blockquote>
         </div>
         <div
-          class="box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-white shadow-xl"
+          class="box shrink-0 min-h-[250px] w-[99%] md:w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-black  "
         >
           <div class="flex justify-start items-center gap-4">
             <a
               target="_blank"
-              href="https://www.youtube.com/watch?v=m4_59uGrGh8"
+                href="https://www.youtube.com/watch?v=m4_59uGrGh8"
             >
               <div
-                class="rounded-full p-3 bg-lightBg absolute right-6 top-6 flex justify-center items-center cursor-pointer transition ease-in-out delay-150 hover:scale-110 duration-300"
+                class="rounded-full p-3 bg-lightBg absolute right-2 top-6 flex justify-center items-center cursor-pointer transition ease-in-out delay-150 hover:scale-110 duration-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -526,7 +388,7 @@
         </div>
 
         <div
-          class="box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-white shadow-xl"
+          class="box shrink-0 min-h-[250px] w-[99%] md:w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-black  "
         >
           <div class="flex justify-start items-center gap-4">
             <a
@@ -572,7 +434,7 @@
         </div>
 
         <div
-          class="box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-white shadow-xl"
+          class="box shrink-0 min-h-[250px] w-[99%] md:w-[40%]  p-4 rounded-lg border-solid border-[1px] bg-white border-black  "
         >
           <div class="flex justify-start items-center gap-4">
             <a
@@ -612,13 +474,13 @@
             </div>
           </div>
           <blockquote class="text-bodyText mt-4">
-            “The Deloitte team went to extreme lengths to make us feel welcome
-            here. It’s very well organized, very effective and it’s impressive”
+            "The Deloitte team went to extreme lengths to make us feel welcome
+            here. It's very well organized, very effective and it's impressive"
           </blockquote>
         </div>
 
         <div
-          class="box shrink-0 min-h-[250px] w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-white shadow-xl"
+          class="box shrink-0 min-h-[250px] w-[99%] md:w-[40%] p-4 rounded-lg border-solid border-[1px] bg-white border-black  "
         >
           <div class="flex justify-start items-center gap-4">
             <a
@@ -626,7 +488,7 @@
               href="https://www.youtube.com/watch?v=eI910Z0XFRM"
             >
               <div
-                class="rounded-full p-3 bg-lightBg absolute right-6 top-6 flex justify-center items-center cursor-pointer transition ease-in-out delay-150 hover:scale-110 duration-300"
+                class="rounded-full p-3 bg-lightBg absolute right-2 top-6 flex justify-center items-center cursor-pointer transition ease-in-out delay-150 hover:scale-110 duration-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -650,7 +512,7 @@
             <div>
               <h3 class="block text-black pb-2">Yonatan Schreiber</h3>
               <a class="block" href="https://www.ludeo.com/"
-                ><img
+                ><img       
                   class="w-24"
                   src="https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/logos/batch-7/ludeologo.png"
                   alt=""
@@ -658,8 +520,8 @@
             </div>
           </div>
           <blockquote class="text-bodyText mt-4">
-            “This is an opportunity to take part in a program that encourages
-            you to think more broadly about your bigger picture”
+            "This is an opportunity to take part in a program that encourages
+            you to think more broadly about your bigger picture"
           </blockquote>
         </div>
       </div>
@@ -668,19 +530,19 @@
   <!--------------------------------------------------------------------Are we a good match? 3 column--------------------------------------------------------------------  -->
   <section class="px-4 py-20 md:py-32 relative overflow-hidden">
     <div
-      class="absolute top-0 left-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#242424_1px,#000000_1px)] bg-[size:20px_20px]"
+      class="absolute top-0 left-0 z-[-2] h-full w-full bg-[#000000] bg-[radial-gradient(#242424_1px,#000000_1px)] bg-[size:20px_20px]"
     ></div>
 
     <div class="max-w-[1200px] mx-auto gap-24">
-      <h2 class="text-center text-3xl font-bold mb-3 text-white">
+      <h2 class="text-left md:text-center text-3xl font-bold mb-3 text-white">
         Are We a Good Match?
       </h2>
-      <h2 class="text-center text-xl font-normal text-bodyText mb-10">
+      <h2 class="text-left md:text-center text-xl font-normal text-bodyText mb-10">
         The ideal startup will have the following
       </h2>
-      <div class="grid grid-cols-3 gap-10 text-white">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-white">
         <div
-          class="col-span-1 border-solid border-[1px] border-borderDark rounded-xl p-4 backdrop-blur shadow-md"
+          class="col-span-1  border-solid border-[1px] border-borderDark rounded-xl p-4 bg-[#131313]"
         >
           <h3 class="text-2xl text-white mb-2">A Validated Product</h3>
           <p class="text-xl text-bodyText">
@@ -689,13 +551,13 @@
           </p>
         </div>
         <div
-          class="col-span-1 border-solid border-[1px] border-borderDark rounded-xl p-4 backdrop-blur shadow-md"
+          class="col-span-1 border-solid border-[1px] border-borderDark rounded-xl p-4 bg-[#131313]"
         >
           <h3 class="text-2xl text-white mb-2">Over $500K in ARR</h3>
           <p class="text-xl text-bodyText">Positive YoY growth in revenue</p>
         </div>
         <div
-          class="col-span-1 border-solid border-[1px] border-borderDark rounded-xl p-4 backdrop-blur shadow-md"
+          class="col-span-1 border-solid border-[1px] border-borderDark rounded-xl p-4 bg-[#131313]"
         >
           <h3 class="text-2xl text-white mb-2">A US Expansion Plan</h3>
           <p class="text-xl text-bodyText">
@@ -707,18 +569,18 @@
     </div>
   </section>
   <!--------------------------------------------------------------------Program Value--------------------------------------------------------------------->
-  <section class="px-4 py-20 bg-lightBg">
-    <div class="max-w-[1200px] mx-auto grid grid-cols-12 gap-24">
-      <div class="col-span-7 pr-10">
+  <section class="px-4 py-16 bg-lightBg">
+    <div class="max-w-[1200px] mx-auto flex flex-col md:flex-row">
+      <div class="">
         <h2 class="text-3xl font-bold mb-4 text-black sticky top-0">
           Program Value
         </h2>
-        <p class="text-xl font-normal mb-16 text-bodyText">
-          Deloitte Launchpad’s equity and fee-free program supports early-growth
+        <p class="text-xl font-normal mb-16 md:pr-32 text-bodyText">
+          Deloitte Launchpad's equity and fee-free program supports early-growth
           stage founders in four ways
         </p>
-        <div>
-          <div class="pr-28 w-[80%] relative">
+        <div class="w-[80%] md:block hidden">
+          <div class="pr-32 w-[70%] relative">
             <a
               target="_blank"
               href="https://www.youtube.com/watch?v=m4_59uGrGh8"
@@ -730,7 +592,7 @@
               />
             </a>
           </div>
-          <div class="pl-20 w-[80%] mt-[-80px] relative">
+          <div class="pl-20 w-[70%] mt-[-80px] relative">
             <a
               target="_blank"
               href="https://www.youtube.com/watch?v=eI910Z0XFRM"
@@ -744,26 +606,26 @@
           </div>
         </div>
       </div>
-      <div class="col-span-5 grid grid-cols-1 gap-10 text-black">
-        <div class="col-span-1 border-solid border-b-[1px] border-border pb-4">
+      <div class=" text-black">
+        <div class="col-span-1 border-solid border-b-[1px] border-border py-4">
           <p class="text-black text-4xl mb-2">01</p>
           <h3 class="text-xl pb-2 text-bodyText">
             Focus on improving your US go-to-market strategy
           </h3>
         </div>
-        <div class="col-span-1 border-solid border-b-[1px] border-border pb-4">
+        <div class="col-span-1 border-solid border-b-[1px] border-border py-4">
           <p class="text-black text-4xl mb-2">02</p>
           <h3 class="text-xl text-bodyText pb-2">
             Support for expansion and relocation to the US
           </h3>
         </div>
-        <div class="col-span-1 border-solid border-b-[1px] border-border pb-4">
+        <div class="col-span-1 border-solid border-b-[1px] border-border py-4">
           <p class="text-black text-4xl mb-2">03</p>
           <h3 class="text-xl text-bodyText pb-2">
             Access to our vast network of VCs and global Deloitte ecosystem
           </h3>
         </div>
-        <div class="col-span-1 border-solid border-b-[1px] border-border pb-4">
+        <div class="col-span-1 border-solid border-b-[1px] border-border py-4">
           <p class="text-black text-4xl mb-2">04</p>
           <h3 class="text-xl text-bodyText pb-2">
             Lifelong community of fellow Israeli startup founders
@@ -772,17 +634,16 @@
       </div>
     </div>
   </section>
-
   <!--------------------------------------------------------------------TIME LINE -------------------------------------------------------------------  -->
-  <section class="relative overflow-hidden">
+  <section class="px-4 relative overflow-hidden">
     <div
       class="absolute top-0 left-0 z-[-2] h-[100%] w-screen bg-[#000000] bg-[radial-gradient(#242424_1px,#000000_1px)] bg-[size:20px_20px]"
     ></div>
     <div class="max-w-full mx-auto grid grid-cols-12 gap-24">
       <div
-        class="col-span-6 pr-10 bg-[url(https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/images/apply-now-img-2024.jpg)] bg-cover bg-no-repeat bg-center"
+        class="hidden md:block col-span-6 pr-10 bg-[url(https://www2.deloitte.com/content/dam/html/il/2022/launchpad-2022/assets/images/apply-now-img-2024.jpg)] bg-cover bg-no-repeat bg-center"
       ></div>
-      <div class="col-span-6 grid grid-cols-1 gap-10 py-20">
+      <div class="col-span-12  md:col-span-6 grid grid-cols-1 gap-10 py-20">
         <div>
           <h2 class="text-3xl font-bold mb-4 text-white sticky top-0">
             Program Timeline
@@ -1230,7 +1091,7 @@
       </div>
     </div>
   </section>
-
+  <!-- ---------------------------------------------------------------------contact--------------------------- -->
   <section class="bg-lightBg py-20">
     <div class="max-w-[1000px] mx-auto px-4 md:px-0">
       <h2 class="text-3xl md:text-center font-bold mb-4 text-black">
@@ -1487,7 +1348,7 @@
       </div>
     </div>
   </section>
-
+  <!-- ---------------------------------------------------------------------About Deloitte Israel--------------------------- -->
   <section class="py-16 md:py-20">
     <div class="max-w-[1000px] mx-auto">
       <h2 class="text-3xl md:text-center font-bold mb-4 text-black">
@@ -1524,9 +1385,14 @@
   </section>
 
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <!-- <script src="https://unpkg.com/gsap@3/dist/Draggable.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
   <script src="./carousel.js"></script>
+  <script src="./marquee.js"></script>
+
   <script src="./script.js"></script>
+
+
 </body>
+
+<!-- Add before closing body tag, after GSAP script -->
